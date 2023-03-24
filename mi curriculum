@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es>"
+<head>
+	<meta charset="UTF-8"
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>curriculum vitae</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="informacion.js"></script>
+
+  
+</head>
+<body>
+
+  <div class="container">
+	 <div class="lado_izquierdo">
+	  <div class="datos">
+	   <div class="cuadrodeimg">
+	   	<img src="https://randomuser.me/api/portraits/women/44.jpg" width="150" height="150">
+     </div>
+     <h2>Nevaeh Vásquez<br><span>Desarrolladora front-end</span></h2>
+	</div>
+
+
+     <div class="contacto">
+     <h3 class="title">contacto</h3>
+     <ul>
+          <li>
+              <span class="icon">
+              <span class="material-symbols-rounded">call</span>
+              <span class="text"> 4237-5698</span>
+          </li>
+          <li>
+              <span class="icon">
+              <span class="material-symbols-rounded">mail</span>
+              <span class="text">NevV1@example.com</span>
+          </li>
+          <li>
+              <span class="icon">
+              <span class="material-symbols-rounded">person_pin_circle</span>
+              <span class="text">calle pedro moran 695</span>
+          </li>
+          <li>
+              <span class="icon">
+              <span class="material-symbols-rounded">public</span>
+              <span class="text">www.NV1.com</span>
+          </li>	
+      </ul>
+      </div>
+
+     <center>  
+     <div class="idioma">
+        <h3 class="title">idioma</h3>
+      </ul>
+      <li>
+        <h4>ingles</h4>
+        <h5>nivel A2 (3 años de uso)</h5>      
+      </li>
+
+     
+     <div class="Educacion">
+        <h3 class="title">Educacion</h3>
+      </ul>
+      <li>
+        <h4>Universidad Nacional de la Plata</h4>
+        <h5>ingenieria electronica</h5> 
+        <h6>2015-2020</h6>     
+      </li>
+      </ul>
+     </center> 
+     </div>
+       
+
+
+     <div class="lado_derecho">
+
+   
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'perfil')">perfil</button>
+  <button class="tablinks" onclick="openCity(event, 'experiencias')">experiencias</button>
+  <button class="tablinks" onclick="openCity(event, 'habilidades')">habilidades</button>
+</div>
+
+<div id="perfil" class="tabcontent">
+  <h3>SOBRE MI</h3>
+  <p>hola soy Nevaeh Vásque.desarolladora web de florencio varela.
+      lo que mas me gusta de la programacion es dar soluciones a problemas que aparentemente son complicados</p>
+</div>
+
+<div id="experiencias" class="tabcontent">
+  <h3>DESAROLLADORA WEB 2020-2023</h3>
+  <p>desarollo de sitios web desde su inicio utilizando html,js,cs</p> 
+</div>
+
+<div id="habilidades" class="tabcontent">
+  
+  <p>Conocimientos de frameworks<P>
+
+<P>Dominio de lenguajes de
+programación</P>
+
+<P>Resolución de problemas</P>
+
+<P>Interés por la innovación
+tecnológica</P>
+
+<P>Persona analítica</P>
+
+</div>
+
+</body>
+
+</html>
